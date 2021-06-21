@@ -1,0 +1,21 @@
+{
+  "name": "nlw-6-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pademacena/nlw-6-nodejs",
+  "author": "Paulo Augusto <pademacena@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.12",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
