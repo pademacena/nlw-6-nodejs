@@ -4,22 +4,22 @@
 
 - Cadastro de usuários
 
-  [ x ] Não é permitido cadastrar mais de 1 usuário com o mesmo e-mail
+  - [x] Não é permitido cadastrar mais de 1 usuário com o mesmo e-mail
 
-  [ x ] Não é permitido cadastrar usuário sem e-mail
+  - [x] Não é permitido cadastrar usuário sem e-mail
 
 - Cadastrar tag
 
-  [ ] Não é permitido cadastrar mais de uma tag com o mesmo nome 
+  - [ ] Não é permitido cadastrar mais de uma tag com o mesmo nome 
 
-  [ ] Não é permitido cadastrar tag sem nome 
+  - [ ] Não é permitido cadastrar tag sem nome 
 
-  [ ] Não é permitifo o cadastro por usuário que não seja adm
+  - [ ] Não é permitifo o cadastro por usuário que não seja adm
 
 - Cadastro de Elogios
 
-  [ ] Não é permitido um usuário cadastrar elogio para si
+  - [ ] Não é permitido um usuário cadastrar elogio para si
 
-  [ ] Não é permitido cadastrar elogios para usuários inválidos
+  - [ ] Não é permitido cadastrar elogios para usuários inválidos
 
-  [ ] O usuário precisa estar autenticado na aplicação
+  - [ ] O usuário precisa estar autenticado na aplicação
