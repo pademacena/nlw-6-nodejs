@@ -1,20 +1,9 @@
-import express, { Request, Response, NextFunction } from 'express';
-import cors from 'cors';
-import 'reflect-metadata';
-import "express-async-errors"
+import app from "./app";
 
-import { router } from "./routes"
-
-import './database';
-import { errorHandling } from './middleware/errorHandling';
-
-const app = express();
-
-app.use(express.json());
-app.use(cors());
-app.use(router);
-app.use(errorHandling)
-
-app.listen(3000, () => {
-  console.log("server is running in 3000 port");
+app.listen(process.env.PORT || 3333, function (this: any) {
+  console.log(
+    "Server listening on port %d in %s mode",
+    this.address().port,
+    app.settings.env
+  );
 });
